@@ -178,14 +178,14 @@ body{background:var(--cream);color:var(--text);position:relative;}
   height: 160px;
   object-fit: contain;
   mix-blend-mode: normal;
-  background: transparent;
+  background: transparent !important;
   display: block;
 }
 
 /* Speech bubble */
 .bubble{
   position:absolute;bottom:calc(100% + 16px);left:50%;
-  transform:translateX(-50%);background:white;
+  transform:translateX(-50%);background:transparent !important;
   border:2.5px solid var(--rose);border-radius:20px 20px 20px 6px;
   padding:11px 15px;font-size:.78rem;color:var(--text);line-height:1.55;
   min-width:160px;max-width:240px;
